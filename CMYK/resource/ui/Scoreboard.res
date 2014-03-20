@@ -66,7 +66,7 @@
         "font"          "Heavy18"
         "labelText"     "MANN VS MACHINE"
         "textAlignment" "west"
-        "xpos"          "c-292"
+        "xpos"          "3"
         "ypos"          "c70"
         "zpos"          "15"
         "wide"          "287"
@@ -161,7 +161,7 @@
 		if_mvm
 		{
             "fillcolor"		"DarkGray"
-			"xpos"			"c-295"
+			"xpos"			"0"
 			"ypos"			"c87"
 			"wide"			"590"
 			"tall"			"169"
@@ -171,7 +171,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"InfoBG"
-		"xpos"			"c-228"
+		"xpos"			"0"
 		"ypos"			"r31"
 		"ypos_minmode"		"r31"
 		"zpos"			"2"
