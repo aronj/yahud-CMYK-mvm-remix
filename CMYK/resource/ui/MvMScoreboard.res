@@ -1,5 +1,5 @@
 "Resource/UI/MvMScoreboard.res"
-{
+{		
 	"WaveStatusPanel"
 	{
 		"ControlName"		"CWaveStatusPanel"
@@ -11,11 +11,11 @@
 		"tall"				"67"
 		"visible"			"1"
 		"enabled"			"1"
-
+		
 		"verbose"			"1"
 	}
-
-
+	
+	
 	"PopFileLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -39,7 +39,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
-
+		
 		"DifficultyLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -47,14 +47,14 @@
 			"font"			"NoveLight10"
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"West"
-			"xpos"          "4"
-            "ypos"          "457"
+			"xpos"          "4" 
+            "ypos"          "457" 
             "zpos"          "2"
             "wide"          "287"
             "tall"          "12"
 			"fgcolor"		"Blank"
 		}
-
+		
 		"DifficultyValue"
 		{
 			"ControlName"	"CExLabel"
@@ -62,15 +62,15 @@
 			"font"			"HeavyCaps18"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"east"
-			"xpos"          "c24"
-            "ypos"          "c10"
+			"xpos"          "c24" 
+            "ypos"          "c10" 
             "zpos"          "2"
             "wide"          "268"
             "tall"          "17"
 			"fgcolor"		"White"
 		}
 	}
-
+	
 	"PlayerListBackground"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -83,16 +83,16 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/tournament_panel_brown"
-
+		
 		"scaleImage"		"1"
-
+		
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
-
+	
 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_height" 	"5"	
 	}
-
+	
 	"MvMPlayerList"
 	{
 		"ControlName"	"SectionedListPanel"
@@ -109,7 +109,7 @@
 		"linespacing"	"24"
 		"textcolor"		"White"
 	}
-
+	
 	"CreditStatsContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -119,7 +119,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
-
+		
 		"CreditStatsBackground"
 		{
 			"ControlName"		"ScalableImagePanel"
@@ -137,11 +137,11 @@
 
 			"src_corner_height"	"22"				// pixels inside the image
 			"src_corner_width"	"22"
-
+		
 			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"
+			"draw_corner_height" 	"5"	
 		}
-
+		
 		"CreditsLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -154,7 +154,7 @@
 			"wide"			"200"
 			"fgcolor"		"Blank"
 		}
-
+		
 		"PreviousWaveCreditInfoPanel"
 		{
 			"ControlName"	"CCreditDisplayPanel"
@@ -165,7 +165,7 @@
 			"wide"			"200"
 			"visible"		"1"
 		}
-
+		
 		"TotalGameCreditInfoPanel"
 		{
 			"ControlName"	"CCreditDisplayPanel"
@@ -176,7 +176,7 @@
 			"wide"			"200"
 			"visible"		"1"
 		}
-
+		
 		"PreviousWaveCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"
@@ -187,7 +187,7 @@
 			"wide"			"200"
 			"visible"		"1"
 		}
-
+		
 		"TotalGameCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"
