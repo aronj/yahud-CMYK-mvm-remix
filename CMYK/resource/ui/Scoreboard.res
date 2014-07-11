@@ -7,7 +7,7 @@
 		"xpos"				"0"
 		"ypos"				"0"
 		"wide"				"f0"
-		"tall"				"480"
+		"tall"				"580" // positioning kinda
 		"visible"			"1"
 		"enabled"			"1"
 		"avatar_width"		"56"        // 42 for lower res
@@ -48,14 +48,14 @@
 
         if_mvm
         {
-            //"font"			"MediumNumbers10"
-            //"fgcolor"			"White"
-            //"textinsetx"	"-2"
-            //"use_proportional_insets" "1"
-            //"ypos"			"r11"
-            //"xpos"			"c-293"
-            //"tall"			"11"
-            //"textAlignment"	"west"
+            "font"			"MediumNumbers10"
+            "fgcolor"			"White"
+            "textinsetx"	"-2"
+            "use_proportional_insets" "1"
+            "ypos"			"0"
+            "xpos"			"0"
+            "tall"			"11"
+            "textAlignment"	"west"
             "visible" "1"
         }
 	}
@@ -67,7 +67,7 @@
         "labelText"     "MANN VS MACHINE"
         "textAlignment" "west"
         "xpos"          "c-292"
-        "ypos"          "c70"
+        "ypos"          "c20"
         "zpos"          "15"
         "wide"          "287"
         "tall"          "17"
@@ -147,10 +147,10 @@
 		"fieldName"		"MainBG"
 		"xpos"			"c-228"
 		"ypos"			"c53"
-		"ypos_minmode"		"r125"
+		"ypos_minmode"		"r25"
 		"zpos"			"-2"
 		"wide"			"456"
-		"tall"			"240"
+		"tall"			"390"
 		"tall_minmode"		"190"
 		"fillcolor"		"DarkGray"
 		"autoResize"	"0"
@@ -158,13 +158,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		if_mvm
+		if_mvm  // transparent background
 		{
             "fillcolor"		"DarkGray"
 			"xpos"			"c-295"
-			"ypos"			"c87"
+			"ypos"			"c27"
 			"wide"			"590"
-			"tall"			"169"
+			"tall"			"269"
 		}
 	}
     "InfoBG"
@@ -183,11 +183,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		if_mvm
+		if_mvm // black background
 		{
             "xpos"			"c-295"
-            "ypos"          "r10"
+            "ypos"          "r-40"
             "wide"			"590"
+            "tall"			"12"
             "visible" "1"
 		}
 	}
@@ -196,7 +197,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMBGTopLine"
 		"xpos"			"c-295"
-		"ypos"			"c85"
+		"ypos"			"c35"
 		"zpos"			"14"
 		"wide"			"410"
 		"tall"			"2"
@@ -216,7 +217,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMBGTop"
 		"xpos"			"c-295"
-		"ypos"			"c70"
+		"ypos"			"c20"
 		"zpos"			"9"
 		"wide"			"590"
 		"tall"			"17"
@@ -844,7 +845,7 @@
 		"enabled"		"1"
 		"border"		"0"
 
-		if_mvm
+		if_mvm		
 		{
 			"ypos"		"99999"
 		}

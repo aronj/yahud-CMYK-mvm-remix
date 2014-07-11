@@ -98,9 +98,9 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
 		"xpos"			"c-294"
-		"ypos"			"c75"
+		"ypos"			"c25"
 		"wide"			"400"
-		"tall"			"155"
+		"tall"			"405" // tallness of playerlist, something is blocking on top
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
