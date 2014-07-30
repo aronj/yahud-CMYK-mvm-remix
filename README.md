@@ -1,17 +1,19 @@
 # yahud-CMYK-mvm-remix
 
-## Installing the HUD
+## Installing
 
-**Download**
+* Press the 'Download ZIP' button to the right.
+* Extract the `yahud-CMYK-mvm-remix` folder into `../Steam/steamapps/common/team fortress 2/tf/custom/`
 
-To download the HUD press the "Download ZIP" button to the right on the github page.
+or
 
-**Installing**
+With git from commandline on windows this would be equal to:
+```batch
+cd 'C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom'
+git clone https://github.com/aronj/yahud-CMYK-mvm-remix
+```
 
-Navigate to ... / Steam / steamapps / common / team fortress 2 / tf / custom / .
-Move the folder named only 'CMYK' from the zip into that folder.
-
-**Shortcuts**
+## Usage
 
 The HUD has optional shortcuts on Q,E & R for various menus.
 You can also press Enter, Q or click anywhere to get through the map intro screens.
