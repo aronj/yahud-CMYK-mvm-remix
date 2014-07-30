@@ -1,9 +1,10 @@
 # yahud-CMYK-mvm-remix
 
-## Installing
+## Install
 
 * Press the 'Download ZIP' button to the right.
-* Extract the `yahud-CMYK-mvm-remix` folder into `../Steam/steamapps/common/team fortress 2/tf/custom/`
+* Open the zip.
+* Place the `yahud-CMYK-mvm-remix-master` folder in `../Steam/steamapps/common/team fortress 2/tf/custom/`
 
 or
 
