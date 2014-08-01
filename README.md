@@ -1,4 +1,5 @@
 # yahud-CMYK-mvm-remix
+This hud is aimed at mvm games with more than 6 players.
 
 ## Install
 
@@ -71,14 +72,6 @@ This can help resolve issues:
 * restart TF2 / Steam
 * verify TF2's game cache on steam
 * re-download & re-install the hud
-
-You can submit bug reports & questions via the  GitHub issue tracker.
-github.com/whayay/yahud/issues
-This is the best way to let me know what's up.
-
-
-
-Thanks for using this HUD!
 
 
 Thanks to:  whayay (original creator), Garm3n, maxerize, boots, ell, e-thug, foster, kenneth, trog, Lange
